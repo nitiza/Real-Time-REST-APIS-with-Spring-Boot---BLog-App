@@ -7,6 +7,10 @@ public class PostDto {
 	private String description;
 	private String content;
 	
+	public PostDto()
+	{
+		
+	}
 	
 	public PostDto(long id, String title, String description, String content) {
 		super();
